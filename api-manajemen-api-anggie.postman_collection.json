@@ -1,0 +1,224 @@
+{
+	"info": {
+		"_postman_id": "8191af01-9fa2-4500-b901-bd161648575a",
+		"name": "api-manajemen-api-anggie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48016317",
+		"_collection_link": "https://muharikn98-7329679.postman.co/workspace/arik's-Workspace~7b2f24ba-57aa-4598-80ff-8681266e70d5/collection/48016317-8191af01-9fa2-4500-b901-bd161648575a?action=share&source=collection_link&creator=48016317"
+	},
+	"item": [
+		{
+			"name": "pull movies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "pull get movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/movies/68fb7a2e70a168aeafcf7f38",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"movies",
+						"68fb7a2e70a168aeafcf7f38"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "menambah movies",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"berserk\",\r\n        \"director\": \"kentaro\",\r\n        \"year\": 2010\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update movies",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"homuculus\",\r\n        \"director\": \"rinto\",\r\n        \"year\": 1311\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/movies/68fb7a2e70a168aeafcf7f38",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"movies",
+						"68fb7a2e70a168aeafcf7f38"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"homuculus\",\r\n        \"director\": \"rinto\",\r\n        \"year\": 1311\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3300/movies/68fb7a2e70a168aeafcf7f38",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"movies",
+						"68fb7a2e70a168aeafcf7f38"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pull direktori",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/directors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"directors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pull id direktori",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "tambah direktori",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"kirooo\",\r\n        \"birthYear\": 1980\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/directors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"directors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update direktori",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"kanchu\",\r\n        \"birthYear\": 9780\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/directors/68fb81e9606957233a762642",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"directors",
+						"68fb81e9606957233a762642"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete direktori",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/directors/68fb81e9606957233a762642",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"directors",
+						"68fb81e9606957233a762642"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

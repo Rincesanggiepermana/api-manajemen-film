@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "b55f0d75-e762-4a3f-91ee-8a533307dbdf",
+		"name": "Api-Manajemen-Film",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48016317",
+		"_collection_link": "https://muharikn98-7329679.postman.co/workspace/Nathan~00b5b045-0832-40b9-aa5f-0ba7d9241fdd/collection/48016317-b55f0d75-e762-4a3f-91ee-8a533307dbdf?action=share&source=collection_link&creator=48016317"
+	},
+	"item": [
+		{
+			"name": "GET DIRECTORS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET/ID DIRECTORS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST DIRECTORS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT DIRECTORS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE DIRECTORS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
