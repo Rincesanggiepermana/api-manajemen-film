@@ -15,8 +15,8 @@
 // app.use(express.json());
 
 
-// // === ROUTES ===
-// // == ROUTES UNTUK DIRECTOR (BARU) ==
+// // ROUTES 
+// //  ROUTES UNTUK DIRECTOR (BARU) 
 
 // // POST /directors: Membuat Sutradara Baru
 // app.post('/directors', async (req, res, next) => {
